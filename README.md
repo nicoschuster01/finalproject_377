@@ -2,11 +2,6 @@
 ### By Avi Gadde and Nico Schuster
 
 ## Research Question¶
-=======
-# Research Proposal: < Title >
-### By X, Y, and Z
-
-## Research Question¶
 
 What do we want to know or what problems are we trying to solve? As in the midterm, you should list (1) the “bigger” question/debate/problem you’re interested in, and also (2) the specific research question(s) you’ll actually try to answer.
 
