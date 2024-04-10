@@ -1,20 +1,9 @@
-# Final Project
-
-Full instructions for the proposals¶
-In the project repo, create a file called “proposal.md”. It should cover two big things:
-
-The research question. It should be precise (NOT VAGUE), the hypothesis clear, and the metrics well defined.
-
-The necessary data. This should be realistically acquirable over our time frame. There are a lot of data resources on the website, including FRED, ourworldindata.com, and SEC’s EDGAR.
-
-The template below is just a template. You can modify it, just remember to sell me on the idea and why it’s both interesting and feasible.
-
-# Research Proposal: < Title >¶
-### By X, Y, and Z
+# Research Proposal: < Multi Factor Modeling  >
+### By Avi Gadde and Nico Schuster
 
 ## Research Question¶
 =======
-# Research Proposal: < Title >¶
+# Research Proposal: < Title >
 ### By X, Y, and Z
 
 ## Research Question¶
