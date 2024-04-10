@@ -9,10 +9,10 @@ The necessary data. This should be realistically acquirable over our time frame.
 
 The template below is just a template. You can modify it, just remember to sell me on the idea and why it’s both interesting and feasible.
 
-Research Proposal: < Title >¶
-By X, Y, and Z
+#Research Proposal: < Title >¶
+###By X, Y, and Z
 
-Research Question¶
+##Research Question¶
 This section should cover:
 
 What do we want to know or what problems are we trying to solve? As in the midterm, you should list (1) the “bigger” question/debate/problem you’re interested in, and also (2) the specific research question(s) you’ll actually try to answer.
