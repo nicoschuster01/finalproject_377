@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # Final Project
-=======
-# finalproject_377
->>>>>>> 850f79c1a860e1775794a03f6646a8a19770ce6f
 
 Full instructions for the proposals¶
 In the project repo, create a file called “proposal.md”. It should cover two big things:
@@ -13,18 +9,15 @@ The necessary data. This should be realistically acquirable over our time frame.
 
 The template below is just a template. You can modify it, just remember to sell me on the idea and why it’s both interesting and feasible.
 
-<<<<<<< HEAD
 # Research Proposal: < Title >¶
 ### By X, Y, and Z
 
 ## Research Question¶
 =======
-#Research Proposal: < Title >¶
-###By X, Y, and Z
+# Research Proposal: < Title >¶
+### By X, Y, and Z
 
-##Research Question¶
->>>>>>> 850f79c1a860e1775794a03f6646a8a19770ce6f
-This section should cover:
+## Research Question¶
 
 What do we want to know or what problems are we trying to solve? As in the midterm, you should list (1) the “bigger” question/debate/problem you’re interested in, and also (2) the specific research question(s) you’ll actually try to answer.
 
@@ -51,11 +44,8 @@ What variables are absolutely necessary and what would you like to have if possi
 
 What data do we have and what data do we need?
 
-<<<<<<< HEAD
-=======
 How will we collect more data?
 
 What are the raw inputs and how will you store them (the folder structure(s) for each input type)?
 
 Speculate at a high level (not specific code!) about how you’ll transform the raw data into the final form.
->>>>>>> 850f79c1a860e1775794a03f6646a8a19770ce6f

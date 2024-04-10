@@ -13,7 +13,11 @@ The template below is just a template. You can modify it, just remember to sell 
 ### By X, Y, and Z
 
 ## Research Question¶
-This section should cover:
+=======
+# Research Proposal: < Title >¶
+### By X, Y, and Z
+
+## Research Question¶
 
 What do we want to know or what problems are we trying to solve? As in the midterm, you should list (1) the “bigger” question/debate/problem you’re interested in, and also (2) the specific research question(s) you’ll actually try to answer.
 
@@ -40,3 +44,8 @@ What variables are absolutely necessary and what would you like to have if possi
 
 What data do we have and what data do we need?
 
+How will we collect more data?
+
+What are the raw inputs and how will you store them (the folder structure(s) for each input type)?
+
+Speculate at a high level (not specific code!) about how you’ll transform the raw data into the final form.
