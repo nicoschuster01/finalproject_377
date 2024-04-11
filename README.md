@@ -1,5 +1,5 @@
 # Research Proposal: < Multi Factor Modeling  >
-### By Avi Gadde and Nico Schuster
+### By: Avi Gadde and Nico Schuster
 
 ## Research Question¶
 
