@@ -17,7 +17,7 @@ Our project is centered around predicting fraud in financial transactions using 
 
 In addition to accuracy, success will be measured with precision, which is the proportion of true positive identifications made overall positive identifications. Furthermore, it will be measured with recall (sensitivity) which is the proportion of actual positives correctly identified. Lastly, we can also measure success with the F1 score, being a mean of precision and recall and finding a balance between the two.
 
-## Necessary Data¶
+## Necessary Data
 
 ### Data Collection
 
