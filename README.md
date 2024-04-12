@@ -1,28 +1,22 @@
-<<<<<<< Updated upstream
-# Research Proposal: < Multi Factor Modeling  >
-### By: Avi Gadde and Nico Schuster
-=======
-<<<<<<< HEAD
 # Research Proposal: Predicting Fraud in Financial Payment Services
 ### By Avi Gadde and Nico Schuster
-=======
-# Research Proposal: < Multi Factor Modeling  >
-### By: Avi Gadde and Nico Schuster
->>>>>>> f69bc0daa3227cd2ff8722ed15e4711dc484e136
 
 ## Research Question
 
 For this project, we want to create a predictive model to detect fraud in financial service payments and transfers. Currently, there are many hurdles when it comes to fraud detection; many of the predictors are fallible and don't correctly predict whether a payment is actually fraudelent or not. The goal of this project will be to train several different machine learning models to detect fraud given the attributes: payment_type, amount, nameOrig, oldBalanceOrig, namedDest, isFlaggedFraud, isFraud, among others. 
 
->>>>>>> Stashed changes
 
+What do we want to know or what problems are we trying to solve? As in the midterm, you should list (1) the “bigger” question/debate/problem you’re interested in, and also (2) the specific research question(s) you’ll actually try to answer.
 
-The problem we are trying to solve is being able to identify fraudulent financial transactions in an efficient manner.
+The research question will be smaller in scope than the big picture question. But the answer to your specific research question should shed light on the bigger question (although it likely won’t conclusively answer it).
 
-We would like to do this by identifying the necessary components of the dataset that we have obtained of prior fraudelent financial transactions and then developing a machine learning model to be able to predict fraudulent transactions that could happen in the future.
+The answer to your specific research question should shed light on the bigger question (although it likely won’t conclusively answer it).
 
-## Necessary Data¶
+If your project is about relationships, what are the hypotheses you’re testing?
 
+If your project is about prediction, what is your metrics of success? (What are you maximizing?) Can you find a baseline from prior work to give you a ball park to aim for?
+
+Necessary Data¶
 This section should cover:
 
 What does the final dataset need to look like (mostly dictated by the question and the availability of data):
