@@ -1,7 +1,21 @@
+<<<<<<< Updated upstream
 # Research Proposal: < Multi Factor Modeling  >
 ### By: Avi Gadde and Nico Schuster
+=======
+<<<<<<< HEAD
+# Research Proposal: Predicting Fraud in Financial Payment Services
+### By Avi Gadde and Nico Schuster
+=======
+# Research Proposal: < Multi Factor Modeling  >
+### By: Avi Gadde and Nico Schuster
+>>>>>>> f69bc0daa3227cd2ff8722ed15e4711dc484e136
 
-## Research Question¶
+## Research Question
+
+For this project, we want to create a predictive model to detect fraud in financial service payments and transfers. Currently, there are many hurdles when it comes to fraud detection; many of the predictors are fallible and don't correctly predict whether a payment is actually fraudelent or not. The goal of this project will be to train several different machine learning models to detect fraud given the attributes: payment_type, amount, nameOrig, oldBalanceOrig, namedDest, isFlaggedFraud, isFraud, among others. 
+
+>>>>>>> Stashed changes
+
 
 The problem we are trying to solve is being able to identify fraudulent financial transactions in an efficient manner.
 
