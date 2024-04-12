@@ -1,4 +1,4 @@
-# Research Proposal: Predicting Fraud in Financial Payment Services
+# Research Proposal: Predicting Fraud in Financial Payments
 ### By Avi Gadde and Nico Schuster
 
 ## Research Question
