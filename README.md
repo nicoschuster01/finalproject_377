@@ -17,6 +17,10 @@ Our project is centered around predicting fraud in financial transactions using 
 
 In addition to accuracy, success will be measured with **precision**, which is the proportion of true positive identifications made overall positive identifications. Furthermore, it will be measured with **recall** (sensitivity) which is the proportion of actual positives correctly identified. Lastly, we can also measure success with the **F1 score**, being a mean of precision and recall and finding a balance between the two.
 
+### Dashboard
+
+The dashboard will feature various visualizations to provide insights into financial transaction data and fraud occurrences. Bar charts will display transaction type distribution, while pie charts will visualize the proportion of fraudulent versus non-fraudulent transactions. Line charts will track fraud occurrences over time, and scatter plots will explore relationships between features like transaction amount and fraud occurrence. These visualizations will aid in understanding the dataset and detecting future fraudulent transactions.
+
 ## Necessary Data
 
 ### Data Collection
