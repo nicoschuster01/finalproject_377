@@ -1,8 +1,5 @@
 import streamlit as st
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-import matplotlib.ticker as mtick
 from PIL import Image
 
 # Load data
@@ -40,7 +37,7 @@ def main():
         img = Image.open('pics/plot4.png')
         st.image(img)
         
-        st.code('for i in range(8): foo()')
+        st.code('')
 
     if page == "Report":
         st.title("Report: Predicting Fraud in Financial Transactions")
