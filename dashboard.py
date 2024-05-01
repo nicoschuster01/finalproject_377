@@ -29,9 +29,8 @@ def main():
         st.code('for i in range(8): foo()')
 
     if page == "Report":
-        st.title("Report")
+        st.title("Report: Predicting Fraud in Financial Transactions")
         """
-        # Research Proposal: Predicting Fraud in Financial Transactions
 ### By: Avi Gadde and Nico Schuster
 
 ## Research
