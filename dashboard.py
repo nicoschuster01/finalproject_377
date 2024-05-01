@@ -5,9 +5,6 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as mtick
 from PIL import Image
 
-# Title the dashboard
-st.title('Predicting Fraud in Financial Transactions')
-
 # Load data
 data = pd.read_csv("output_data/fraudie_sampled.csv")
 
@@ -16,6 +13,7 @@ def main():
     page = st.sidebar.radio("Go to", ["Home", "Report"])
 
     if page == "Home":
+        st.title('Predicting Fraud in Financial Transactions')
         img = Image.open('pics/photo.jpeg')
         st.image(img)
         
