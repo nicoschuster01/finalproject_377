@@ -6,7 +6,7 @@ import matplotlib.ticker as mtick
 from PIL import Image
 
 # Load data
-data = pd.read_csv("output_data/fraudie_sampled.csv")
+data = pd.read_csv("randooutput/fraudie_sampled.csv")
 
 def main():
     st.sidebar.title("Navigation")
