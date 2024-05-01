@@ -130,16 +130,39 @@ print(f"F1-score: {f1:.4f}")""")
         """
 
         st.header('Precision Recall Curve')
-        #st.subheader('My sub')
+        
         img = Image.open('pics/plot3.png')
         st.image(img)
-
+        st.subheader('Analysis')
+        st.latex(r'''Precision = \frac{True\ Positives}{True\ Positives + False\ Positives}''')
+        st.caption("""
+        Precision, as we know, can be interpreted as the fraction of positive predictions that actually belong to the positive class. It measures how often predictions for the positive class are correct.
+        """)
+        st.latex(r'''Recall = \frac{True\ Positives}{True\ Positives + False\ Negatives}''')
+        st.caption("""
+        Recall, on the other hand, can be interpreted as the fraction of positive predictions out of all positive instances in our data set. It measures how well the model finds all postive instances in the dataset.
+        """)
+        """
+        When looking at the curve, we can interpret that our model has relatively great recall and precision at every threshold. From this, we gather that our model performs well when determining which class label to assign to each instance.
+        """
         st.header('ROC Curve')
         #st.subheader('My sub')
         img = Image.open('pics/plot4.png')
         st.image(img)
-        
-        st.code('')
+        st.subheader('Analysis')
+        st.latex(r'''True\ Positive\ Rate = \frac{TP}{TP + FP + TN + FN}''')
+        st.latex(r'''False\ Positive\ Rate = \frac{FP}{TP + FP + TN + FN}''')
+        """
+        From this ROC curve, we can see that our model predicts with incredible accuracy seeing as how it maximizes the area under the curve. On the top left corner, we can see where our recall lies in relation to the false positive rate. In this case, recall is extraordinarly close to 1.00 while our false positive rate is extremely marginal. This indicates that this model, on this specific dataset, performs incredibly better than a simple random classifier.
+        """
+
+        st.header('Conclusion')
+        """
+        The machine learning model trained on the financial transaction data showed promising results in detecting fraudulent activity. By using techniques such as stratified sampling, data preprocessing, and hyperparameters, we were able to build a Random Forest classifier that achieved **high accuracy (0.985)** and **precision (0.991)** scores on the test set. However, the model still **struggled with recall (0.8501)**, indicating that a significant portion of fraudulent transactions were *missed*. This highlights the inherent challenge of class imbalance in fraud detection, where fraudulent cases are relatively rare compared to legitimate transactions. 
+
+Moving forward, further efforts should be made to improve the model's recall performance, potentially through more advanced sampling methods or by incorporating additional relevant features. Additionally, the business implications of false positives versus false negatives should be carefully evaluated to strike the right balance between precision and recall based on the specific requirements of a financial institution. Overall, this project demonstrates the potential of machine learning in enhancing fraud detection capabilities, while also emphasizing the need for continuous model refinement.
+
+        """
 
     if page == "Report":
         st.title("Report: Predicting Fraud in Financial Transactions")
