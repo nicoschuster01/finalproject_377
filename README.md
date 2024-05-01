@@ -1,4 +1,4 @@
-# Research Proposal: Predicting Fraud in Financial Transactions
+# Report: Predicting Fraud in Financial Transactions
 ### By: Avi Gadde and Nico Schuster
 
 ## Research
